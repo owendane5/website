@@ -1,0 +1,52 @@
+
+
+@import url(/styles/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+html, body, main, header {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+header {
+    background-image: url(./pawel-czerwinski-dgJT71cXlC4-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+main {
+    display: flex;
+    width: 100%;
+    
+}
+
+/* Nav */
+
+nav {
+    width: 100%;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #e74c3c;
+    width: 100%;
+}
+nav ul li {
+    text-decoration: none;
+    font-family: 'Nerko One', cursive;
+   padding: 8px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+    font-size: 41px;
+    padding: 23px;
+}
+nav ul li a:hover {
+    background-color: #c0392b;
+}
